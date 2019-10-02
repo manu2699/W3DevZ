@@ -53,3 +53,10 @@ document.getElementById("we-link").addEventListener("click", (e) => {
         behavior: 'smooth'
     });
 })
+document.getElementById("create-link").addEventListener("click", (e) => {
+    window.scroll({
+        top: document.getElementsByClassName("projects")[0].offsetTop,
+        left: 0,
+        behavior: 'smooth'
+    });
+})

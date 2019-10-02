@@ -68,8 +68,10 @@ body {
 }
 
 .team {
+    background: #111111;
     height: 100vh;
     padding: 3rem 2.5rem;
+    color: white;
 }
 
 .logo {
@@ -79,7 +81,7 @@ body {
     transform: rotate(-5);
 }
 
-#we-link {
+.link {
     background:
     linear-gradient(
     to bottom, tomato 0%,
@@ -95,7 +97,7 @@ body {
     cursor: pointer;
 }
 
-#we-link:hover {
+.link:hover {
     background-size: 4px 60px;
 }
 
