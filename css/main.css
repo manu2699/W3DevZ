@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap'); /*title*/
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Karla";
+}
+
+.title {
+    font-family: "Abril Fatface";
+    font-size: 100px;
+    line-height:95px;
+    letter-spacing: 3px;
+    position: relative;
+    top: 50px;
+    font-weight: 100;
+    color: #111111;
+}
+
+.subtitle {
+    font-family: "Karla";
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: lighter;
+    position: relative;
+    top: 50px;
+    color: black;
+}
+
+.scroll-down {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.slogan {
+    font-family: "Karla";
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    color: black;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.location {
+    font-family: "Karla";
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+
+.hero {
+    height: 100vh;
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+
+.intro {
+    padding: 3rem 2.5rem;
+    text-align: left;
+    background: #111111;
+    padding-bottom: 12rem;
+}
+
+.team {
+    height: 100vh;
+    padding: 3rem 2.5rem;
+}
+
+.logo {
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 356px !important; 
+    transform: rotate(-5);
+}
+
+#we-link {
+    background:
+    linear-gradient(
+    to bottom, tomato 0%,
+    tomato 100%
+    );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 6px 4px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+#we-link:hover {
+    background-size: 4px 60px;
+}
+
+.sub-intro {
+    font-size: 52px;
+    font-weight: lighter;
+}
+
+.us-title {
+    font-family: "Abril Fatface";
+    font-size: 42px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.left {
+    font-size: 72px;
+    /* color: #41404d */
+    color: white;
+}
+
+.hero-body {
+  background: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  padding-top: 30vh;
+}
+
+
+@media only screen and (max-width:600px){
+    .title {
+        font-size: 64px;
+    }
+    
+    .left {
+        
+        font-size: 35px;
+    }
+    
+    .intro {
+        padding: 1.5rem 1rem;
+        padding-bottom: 10rem;
+    }
+    
+    .team {
+        padding: 1.5rem 1rem;
+    }
+    
+}
