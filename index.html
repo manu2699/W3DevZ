@@ -1,175 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>W3DevZ</title>
-    <link rel = "stylesheet" href = "css/libs/bulma.css" />
-    <link rel = "stylesheet" href = "css/main.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"
-        integrity="sha256-BuxrUdr/4YoztQLxT6xmdO6hSQw2d6BtBUY1pteGds4=" crossorigin="anonymous"></script>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        />
-</head>
-<body>
-    <main class = "main">
-        <section class="section hero main-header">
-            <div class="hero-body">
-                <div class="subtitle">Hi! We are The</div>
-                <!-- <div class = "title"><div class = "text">W3DevZ</div></div> -->
-                <figure class="image is-128x128 logo title" style="left: -20px">
-                    <img src="img/w3devz.png">
-                </figure>
-                <div class="slogan">We Make Stuff!</div>
-            </div>
-            <div class="scroll-down"><i class="fa fa-chevron-down"></i></div>
-        </section>
-        <section class="section intro">
-            <div class="columns">
-                <div class="column left">
-                    <span class = "link" id="we-link">We</span> are a group of Enthusiastic individuals; based in Chennai,
-                    TamilNadu, India.
-                    We <span class = "link" id = "create-link">create</span> solutions to problems. We <em>Make</em>, <em>Break</em>, <em>Learn</em> and
-                    <em>Enjoy</em> the process.
-                    We would <em>love ❤️</em> to turn your small/big ideas into reality. ✨
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>W3DevZ</title>
+        <link rel="stylesheet" href="css/libs/bulma.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"
+            integrity="sha256-BuxrUdr/4YoztQLxT6xmdO6hSQw2d6BtBUY1pteGds4=" crossorigin="anonymous"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <main class="main">
+            <section class="section hero main-header">
+                <div class="hero-body">
+                    <div class="subtitle">Hi! We are The</div>
+                    <!-- <div class = "title"><div class = "text">W3DevZ</div></div> -->
+                    <figure class="image is-128x128 logo title" style="left: -20px">
+                        <img src="img/w3devz.png">
+                    </figure>
+                    <div class="slogan">We Make Stuff!</div>
                 </div>
-            </div>
-        </section>
-        <section class="section projects" style = "text-align: center; height: 40vh;">
-            <div class="us-title">Our Projects</div>
-            <div style = "padding-top: 20px; font-size: 27px;">Coming Soon™</div>
-        </section>
-        <section class="section team">
-            <div class = "us-title">Our Squad</div>
-            <div class = "container squad-cont">
-                <div class =  "columns">
-                    <div class = "column">
-                        <div class = "card card-wrap">
-                            <div class = "card-content">
-                                <div class = "content">
-                                    <figure class = "image is-128x128 pic-cont">
-                                        <img class = "is-rounded" src = "img/tk.png" />
+                <div class="scroll-down"><i class="fa fa-chevron-down"></i></div>
+            </section>
+            <section class="section intro">
+                <div class="columns">
+                    <div class="column left">
+                        <span class="link" id="we-link">We</span> are a group of Enthusiastic individuals; based in
+                        Chennai,
+                        TamilNadu, India.
+                        We <span class="link" id="create-link">create</span> solutions to problems. We <em>Make</em>,
+                        <em>Break</em>, <em>Learn</em> and
+                        <em>Enjoy</em> the process.
+                        We would <em>love ❤️</em> to turn your small/big ideas into reality. ✨
+                    </div>
+                </div>
+            </section>
+            <section class="section projects" style="text-align: center; height: 40vh;">
+                <div class="us-title">Our Projects</div>
+                <div style="padding-top: 20px; font-size: 27px;">Coming Soon™</div>
+            </section>
+            <section class="section stuffs">
+                <div class="us-title">And we do our stuffs with..</div>
+
+                <div class="columns">
+                    <div class="column">
+                        <div class="box card card-wrap" style="margin: 3%; padding: 3%">
+                            <article class="media">
+                                <div class="media-left">
+                                    <figure class="image is-128x128">
+                                        <img src="img/node.png" width="30%" alt="">
                                     </figure>
-                                    <div class = "name">TK Vishal</div>
-                                    <div class="designation">Web Developer and Designer</div>
-                                    <div class="about">
-                                        I craft simple apps with natural user interfaces. Jack of all trades, master of some.
-                                        I have my hands in UI design, web development data analysis and visualization. Love to play games
-                                        and participate in CTF's
-                                    </div>
-                                    <div class = "socials">
-                                        <div class = "columns has-test">
-                                            <div class = "column social-icon">
-                                                <a href="https://www.instagram.com/tk_vishal/" target = "_blank"><i class = "fa fa-instagram"></i></a>
-                                            </div>
-                                            <div class="column social-icon">
-                                                <a href="https://twitter.com/Iamteeekay" target = "_blank"><i class="fa fa-twitter"></i></a>
-                                            </div>
-                                            <div class="column social-icon">
-                                                <a href="https://tkvishal.now.sh" target = "_blank"><i class="fa fa-heart"></i></a>
-                                            </div>
-                                        </div>
+
+                                </div>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <strong>Node.js</strong>
+                                        <br>
+                                        Node.js is a JavaScript runtime built on Chromes V8 JavaScript engine. It
+                                        uses an
+                                        event-driven, non-blocking i/O.
                                     </div>
                                 </div>
-                            </div>
+                            </article>
                         </div>
                     </div>
                     <div class="column">
-                        <div class="card card-wrap">
-                            <div class="card-content">
-                                <div class="content">
-                                    <figure class="image is-128x128 pic-cont">
-                                        <img class="is-rounded" src="img/user.png" />
+                        <div class="box card card-wrap" style="margin: 3%; padding: 3%">
+                            <article class="media">
+                                <div class="media-left">
+                                    <figure class="image is-128x128">
+                                        <img class="media-object" src="img/rn.png" width="30%" alt="">
                                     </figure>
-                                    <div class="name">Maneesh</div>
-                                    <div class="designation">lorem lorem lorem</div>
-                                    <div class="about">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero pariatur nesciunt facilis perferendis, eum laboriosam aperiam veritatis nisi non itaque, odio vitae. Placeat voluptatibus aspernatur adipisci soluta ea fugit tempora!
-                                    </div>
-                                    <div class="socials">
-                                        <div class="columns has-test">
-                                            <div class="column social-icon">
-                                                <a href=""><i class="fa fa-instagram"></i></a>
-                                            </div>
-                                            <div class="column social-icon">
-                                                <a href=""><i class="fa fa-twitter"></i></a>
-                                            </div>
-                                            <div class="column social-icon">
-                                                <a href=""><i class="fa fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
-                            </div>
+                                <div class="media-content">
+
+                                    <strong>React Native</strong>
+                                    <br>
+                                    React Native enables you to build world-class native application using
+                                    JavaScript and
+                                    React
+
+                                </div>
+                            </article>
                         </div>
                     </div>
                     <div class="column">
-                        <div class="card card-wrap">
-                            <div class="card-content">
-                                <div class="content">
-                                    <figure class="image is-128x128 pic-cont">
-                                        <img class="is-rounded" src="img/user.png" />
+                        <div class="box card card-wrap" style="margin: 3%; padding: 3%">
+                            <article class="media">
+                                <div class="media-left">
+                                    <figure class="image is-128x128">
+                                        <img class="media-object" src="img/react.png" width="30%" alt="">
                                     </figure>
-                                    <div class="name">Venkat Kishore</div>
-                                    <div class="designation">lorem lorem lorem</div>
-                                    <div class="about">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero pariatur nesciunt facilis
-                                        perferendis, eum laboriosam aperiam veritatis nisi non itaque, odio vitae. Placeat voluptatibus
-                                        aspernatur adipisci soluta ea fugit tempora!
-                                    </div>
-                                    <div class="socials">
-                                        <div class="columns has-test">
-                                            <div class="column social-icon">
-                                                <a href=""><i class="fa fa-instagram"></i></a>
-                                            </div>
-                                            <div class="column social-icon">
-                                                <a href=""><i class="fa fa-twitter"></i></a>
-                                            </div>
-                                            <div class="column social-icon">
-                                                <a href=""><i class="fa fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="card card-wrap">
-                            <div class="card-content">
-                                <div class="content">
-                                    <figure class="image is-128x128 pic-cont">
-                                        <img class="is-rounded" src="img/user.png" />
-                                    </figure>
-                                    <div class="name">Another Guy</div>
-                                    <div class="designation">lorem lorem lorem</div>
-                                    <div class="about">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero pariatur nesciunt facilis
-                                        perferendis, eum laboriosam aperiam veritatis nisi non itaque, odio vitae. Placeat voluptatibus
-                                        aspernatur adipisci soluta ea fugit tempora!
-                                    </div>
-                                    <div class="socials">
-                                        <div class="columns has-test">
-                                            <div class="column social-icon">
-                                                <a href=""><i class="fa fa-instagram"></i></a>
-                                            </div>
-                                            <div class="column social-icon">
-                                                <a href=""><i class="fa fa-twitter"></i></a>
-                                            </div>
-                                            <div class="column social-icon">
-                                                <a href=""><i class="fa fa-heart"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="media-content">
+
+                                    <strong>React.js</strong>
+                                    <br>
+                                    A declarative, efficient & flexible Javascript librar for building user interfaces.
+
                                 </div>
-                            </div>
+                            </article>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
-    <script src ="js/main.js"></script>
-</body>
+
+            </section>
+            <section class="section team">
+                <div class="us-title">Our Squad</div>
+                <div class="container squad-cont">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card card-wrap">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <figure class="image is-128x128 pic-cont">
+                                            <img class="is-rounded" src="img/tk.png" />
+                                        </figure>
+                                        <div class="name">TK Vishal</div>
+                                        <div class="designation">Web Developer and Designer</div>
+                                        <div class="about">
+                                            I craft simple apps with natural user interfaces. Jack of all trades, master
+                                            of some.
+                                            I have my hands in UI design, web development data analysis and
+                                            visualization. Love to play games
+                                            and participate in CTF's
+                                        </div>
+                                        <div class="socials">
+                                            <div class="columns has-test">
+                                                <div class="column social-icon">
+                                                    <a href="https://www.instagram.com/tk_vishal/" target="_blank"><i
+                                                            class="fa fa-instagram"></i></a>
+                                                </div>
+                                                <div class="column social-icon">
+                                                    <a href="https://twitter.com/Iamteeekay" target="_blank"><i
+                                                            class="fa fa-twitter"></i></a>
+                                                </div>
+                                                <div class="column social-icon">
+                                                    <a href="https://tkvishal.now.sh" target="_blank"><i
+                                                            class="fa fa-heart"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card card-wrap">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <figure class="image is-128x128 pic-cont">
+                                            <img class="is-rounded" src="img/maneesh.jpg" />
+                                        </figure>
+                                        <div class="name">Maneesh</div>
+                                        <div class="designation">Web & Android Developer</div>
+                                        <div class="about">
+                                            Im An Enthusiastic Web Developer, who love to do stuffs with new
+                                            technologies and seeks for perfection on every attempts.
+                                            I do mobile apps using Web Stacks!
+                                        </div>
+                                        <div class="socials">
+                                            <div class="columns has-test">
+                                                <div class="column social-icon">
+                                                    <a href="https://www.instagram.com/_manu_vk_/"><i
+                                                            class="fa fa-instagram"></i></a>
+                                                </div>
+                                                <div class="column social-icon">
+                                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                                </div>
+                                                <div class="column social-icon">
+                                                    <a href="https://maneeshk.now.sh/"><i class="fa fa-heart"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card card-wrap">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <figure class="image is-128x128 pic-cont">
+                                            <img class="is-rounded" src="img/kishore.jpg" />
+                                        </figure>
+                                        <div class="name">Venkat Kishore</div>
+                                        <div class="designation">Android Developer</div>
+                                        <div class="about">
+                                            Quest to work and learn in a real professional and vying ambience that
+                                            enables me to cope with the emerging as well as latest technology and scope
+                                            for widening the spectrum of my knowledge.
+                                        </div>
+                                        <div class="socials">
+                                            <div class="columns has-test">
+                                                <div class="column social-icon">
+                                                    <a href=""><i class="fa fa-instagram"></i></a>
+                                                </div>
+                                                <div class="column social-icon">
+                                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                                </div>
+                                                <div class="column social-icon">
+                                                    <a href=""><i class="fa fa-heart"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card card-wrap">
+                                <div class="card-content">
+                                    <div class="content">
+                                        <figure class="image is-128x128 pic-cont">
+                                            <img class="is-rounded" src="img/ashok.jpg" />
+                                        </figure>
+                                        <div class="name">Ashok Kumar</div>
+                                        <div class="designation">Android Developer</div>
+                                        <div class="about">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero pariatur
+                                            nesciunt facilis
+                                            perferendis, eum laboriosam aperiam veritatis nisi non itaque, odio vitae.
+                                            Placeat voluptatibus
+                                            aspernatur adipisci soluta ea fugit tempora!
+                                        </div>
+                                        <div class="socials">
+                                            <div class="columns has-test">
+                                                <div class="column social-icon">
+                                                    <a href=""><i class="fa fa-instagram"></i></a>
+                                                </div>
+                                                <div class="column social-icon">
+                                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                                </div>
+                                                <div class="column social-icon">
+                                                    <a href=""><i class="fa fa-heart"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="js/main.js"></script>
+    </body>
+
 </html>
