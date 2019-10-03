@@ -226,3 +226,11 @@ body {
 bold {
   font-weight: bold;
 }
+button {
+  color: inherit;
+  font-size: 20px;
+  font-weight: bold;
+  background: inherit;
+  border: 0px solid white;
+  cursor: pointer;
+}
