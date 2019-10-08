@@ -226,6 +226,12 @@ body {
   .team {
     padding: 1.5rem 1rem;
   }
+
+  .logo {
+    width: 256px !important;
+    margin-left: auto;
+  margin-right: auto;
+  }
 }
 .buttonblk {
   background: white;
