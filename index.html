@@ -1,233 +1,411 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-5Y8ZF4QBZE"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>W3DevZ</title>
-        <link rel="stylesheet" href="css/libs/bulma.css" />
-        <link rel="stylesheet" href="css/main.css" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"
-            integrity="sha256-BuxrUdr/4YoztQLxT6xmdO6hSQw2d6BtBUY1pteGds4=" crossorigin="anonymous"></script>
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-    </head>
+			gtag("config", "G-5Y8ZF4QBZE");
+		</script>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="/img/Group 1.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>W3DevZ</title>
+		<link rel="stylesheet" href="css/libs/bulma.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"
+			integrity="sha256-BuxrUdr/4YoztQLxT6xmdO6hSQw2d6BtBUY1pteGds4="
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			rel="stylesheet"
+		/>
+	</head>
 
-    <body>
-        <main class="main">
-            <section class="section hero main-header">
-                <div class="hero-body">
-                    <div class="subtitle">Hi! We are The</div>
-                    <!-- <div class = "title"><div class = "text">W3DevZ</div></div> -->
-                    <figure class="image is-128x128 logo title">
-                        <img src="img/w3devz.png">
-                    </figure>
-                    <div class="slogan" style = "text-align: center;">
-                        We Do Stuff!
-                    </div>
-                    <!-- <div style="text-align: center">
+	<body>
+		<main class="main">
+			<section class="section hero main-header">
+				<div class="hero-body">
+					<div class="subtitle" style="color: #f94646;">
+						Hi! We are The
+					</div>
+					<!-- <div class = "title"><div class = "text">W3DevZ</div></div> -->
+					<figure class="image is-128x128 logo title">
+						<img src="img/anim.gif" />
+					</figure>
+					<div class="slogan" style="text-align: center;">
+						We Do Stuff!
+					</div>
+					<!-- <div style="text-align: center">
 
                     </div> -->
+				</div>
+				<div class="scroll-down">
+					<i class="fa fa-chevron-down"></i>
+				</div>
+			</section>
+			<section class="section intro">
+				<div class="columns">
+					<div class="column left">
+						<span class="link" id="we-link">We</span> are a group of
+						Enthusiastic individuals; based in Chennai, TamilNadu,
+						India. We
+						<span class="link" id="create-link">create</span>
+						solutions to problems. We <em>Make</em>, <em>Break</em>,
+						<em>Learn</em> and <em>Enjoy</em> the process. We would
+						<em>love ❤️</em> to turn your small/big ideas into
+						reality. ✨
+					</div>
+				</div>
+			</section>
+			<section
+				id="Projects"
+				class="section projects"
+				style="text-align: justify;"
+			>
+				<div class="us-title">Our Projects</div>
+				<div class="container projects-cont">
+					<div class="columns">
+						<div class="column">
+							<div
+								class="card card-wrap"
+								style="
+									width: 450px;
+									margin-left: auto;
+									margin-right: auto;
+								"
+							>
+								<div class="card-content">
+									<div class="content">
+										<figure
+											class="image is-128x128 pic-cont"
+										>
+											<img
+												class="is-rounded"
+												src="img/kims.png"
+											/>
+										</figure>
+										<div class="name">
+											KIMS Blood Donor Club
+										</div>
+										<div class="designation">
+											App - Client Project
+										</div>
+										<div class="about">
+											The Kims Blood Donor App puts the
+											power to save lives in your
+											fingertips. A helpful app to request
+											blood and find donors and
+											organisations of your blood group
+											instantly. Keep in touch with all
+											the awareness campaigns in your
+											locality.
+										</div>
+										<figure
+											class="image is-128x128 play-cont"
+										>
+											<a
+												target="_blank"
+												href="https://play.google.com/store/apps/details?id=com.bloodappv2"
+												><img src="img/play.png"
+											/></a>
+										</figure>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column">
+							<a href="/covid19tracker.html">
+								<div
+									class="card card-wrap"
+									style="
+										width: 450px;
+										margin-left: auto;
+										margin-right: auto;
+									"
+								>
+									<div class="card-content">
+										<div class="content">
+											<figure
+												class="image is-128x128 pic-cont"
+											>
+												<img
+													class="is-rounded"
+													src="img/covidlogo.png"
+												/>
+											</figure>
+											<div class="name">
+												Covid-19 Tracker
+											</div>
+											<div class="designation">App</div>
+											<div class="about">
+												Use our Covid-19 trcker app to
+												track covid-19 live exclusively
+												in India, You can view district
+												wise data in a neat visualised
+												map, estimate the distance
+												between you and the nearest
+												case.
+											</div>
+											<figure
+												class="image is-128x128 play-cont"
+											>
+												<a
+													target="_blank"
+													href="covid19tracker.html"
+													><img src="img/dload.png"
+												/></a>
+											</figure>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section stuffs">
+				<div class="stuffs-title">We use...</div>
 
-                </div>
-                <div class="scroll-down"><i class="fa fa-chevron-down"></i></div>
-            </section>
-            <section class="section intro">
-                <div class="columns">
-                    <div class="column left">
-                        <span class="link" id="we-link">We</span> are a group of Enthusiastic individuals; based in
-                        Chennai,
-                        TamilNadu, India.
-                        We <span class="link" id="create-link">create</span> solutions to problems. We <em>Make</em>,
-                        <em>Break</em>, <em>Learn</em> and
-                        <em>Enjoy</em> the process.
-                        We would <em>love ❤️</em> to turn your small/big ideas into reality. ✨
-                    </div>
-                </div>
-            </section>
-            <section id="Projects" class="section projects" style="text-align: justify">
-                <div class="us-title">Our Projects</div>
-                <div class = "container projects-cont">
-                    <div class = "columns">
-                        <div class = "column">
-                            <div class = "card card-wrap" style="width: 450px;margin-left: auto;margin-right: auto;">
-                                <div class = "card-content">
-                                    <div class = "content">
-                                        <figure class="image is-128x128 pic-cont">
-                                            <img class="is-rounded" src="img/kims.png" />
-                                        </figure>
-                                        <div class="name">KIMS Blood Donor Club</div>
-                                        <div class="designation">App - Client Project</div>
-                                        <div class="about">
-                                            The Kims Blood Donor App puts the power to save lives in your fingertips. A helpful 
-                                            app to request blood and find donors and organisations of your blood group instantly.
-                                            Keep in touch with all the awareness campaigns in your locality.
-                                        </div>
-                                        <figure class="image is-128x128 play-cont">
-                                            <a target = "_blank" href = "https://play.google.com/store/apps/details?id=com.bloodappv2"><img src="img/play.png" /></a>
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="section stuffs">
-                <div class="stuffs-title">We use...</div>
-
-                <div class="columns">
-                    <div class="column">
-                        <div class="box card card-wrap" style="margin: 3%; padding: 3%">
-                            <article class="media">
-                                <div class="media-left">
-                                    <figure class="image is-128x128">
-                                        <img src="img/node.png" width="30%" alt="">
-                                    </figure>
-
-                                </div>
-                                <div class="media-content">
-                                    <div class="content">
-                                        <strong>Node.js</strong>
-                                        <br>
-                                        Node.js is a JavaScript runtime built on Chromes V8 JavaScript engine. It
-                                        uses an
-                                        event-driven, non-blocking i/O.
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="box card card-wrap" style="margin: 3%; padding: 3%">
-                            <article class="media">
-                                <div class="media-left">
-                                    <figure class="image is-128x128">
-                                        <img class="media-object" src="img/rn.png" width="30%" alt="">
-                                    </figure>
-                                </div>
-                                <div class="media-content">
-
-                                    <strong>React Native</strong>
-                                    <br>
-                                    React Native enables you to build world-class native application using
-                                    JavaScript and
-                                    React
-
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="box card card-wrap" style="margin: 3%; padding: 3%">
-                            <article class="media">
-                                <div class="media-left">
-                                    <figure class="image is-128x128">
-                                        <img class="media-object" src="img/react.png" width="30%" alt="">
-                                    </figure>
-                                </div>
-                                <div class="media-content">
-
-                                    <strong>React.js</strong>
-                                    <br>
-                                    A declarative, efficient & flexible Javascript librar for building user interfaces.
-
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-            <section class="section team">
-                <div class="us-title">Our Squad</div>
-                <div class="container squad-cont">
-                    <div class="columns">
-                        <div class="column">
-                            <div class="card card-wrap team-cards">
-                                <div class="card-content">
-                                    <div class="content">
-                                        <figure class="image is-128x128 pic-cont">
-                                            <img class="is-rounded" src="img/tk.jpeg" />
-                                        </figure>
-                                        <div class="name">TK Vishal</div>
-                                        <div class="designation">Web Developer and Designer</div>
-                                        <div class="about">
-                                            I craft simple apps with natural user interfaces. Jack of all trades, master
-                                            of some.
-                                            I have my hands in UI design, web development data analysis and
-                                            visualization. Love to play games
-                                            and participate in CTF's
-                                        </div>
-                                        <div class="socials">
-                                            <div class="columns has-test">
-                                                <div class="column social-icon">
-                                                    <a href="https://www.instagram.com/tk_vishal/" target="_blank"><i
-                                                            class="fa fa-instagram"></i></a>
-                                                </div>
-                                                <div class="column social-icon">
-                                                    <a href="https://twitter.com/Iamteeekay" target="_blank"><i
-                                                            class="fa fa-twitter"></i></a>
-                                                </div>
-                                                <div class="column social-icon">
-                                                    <a href="https://tkvishal.now.sh" target="_blank"><i
-                                                            class="fa fa-heart"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="card card-wrap">
-                                <div class="card-content">
-                                    <div class="content">
-                                        <figure class="image is-128x128 pic-cont">
-                                            <img class="is-rounded" src="img/maneesh.jpg" />
-                                        </figure>
-                                        <div class="name">Maneesh</div>
-                                        <div class="designation">Web & Android Developer</div>
-                                        <div class="about">
-                                            Im An Enthusiastic Web Developer, who love to do stuffs with new
-                                            technologies and seeks for perfection on every attempts.
-                                            I can able to do web apps & mobile apps too using Web Stack!
-                                        </div>
-                                        <div class="socials">
-                                            <div class="columns has-test">
-                                                <div class="column social-icon">
-                                                    <a href="https://www.instagram.com/_manu_vk_/" target="_blank"><i
-                                                            class="fa fa-instagram"></i></a>
-                                                </div>
-                                                <div class="column social-icon">
-                                                    <a href="https://twitter.com/Champ_Maneesh" target="_blank"><i
-                                                            class="fa fa-twitter"></i></a>
-                                                </div>
-                                                <div class="column social-icon">
-                                                    <a href="https://maneeshk.now.sh/" target="_blank"><i
-                                                            class="fa fa-heart"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="card card-wrap">
-                                <div class="card-content">
-                                    <div class="content">
-                                        <figure class="image is-128x128 pic-cont">
-                                            <img class="is-rounded" src="img/kishore.jpg" />
-                                        </figure>
-                                        <div class="name">Venkat Kishore</div>
-                                        <div class="designation">Android Developer</div>
-                                        <div class="about">
-                                            Quest to work and learn in a real professional and vying ambience that
-                                            enables me to cope with the emerging as well as latest technology and scope
-                                            for widening the spectrum of my knowledge.
-                                        </div>
-                                        <!-- <div class="socials">
+				<div class="columns">
+					<div class="column">
+						<div
+							class="box card card-wrap"
+							style="margin: 3%; padding: 3%;"
+						>
+							<article class="media">
+								<div class="media-left">
+									<figure class="image is-128x128">
+										<img
+											src="img/node.png"
+											width="30%"
+											alt=""
+										/>
+									</figure>
+								</div>
+								<div class="media-content">
+									<div class="content">
+										<strong>Node.js</strong>
+										<br />
+										Node.js is a JavaScript runtime built on
+										Chromes V8 JavaScript engine. It uses an
+										event-driven, non-blocking i/O.
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="column">
+						<div
+							class="box card card-wrap"
+							style="margin: 3%; padding: 3%;"
+						>
+							<article class="media">
+								<div class="media-left">
+									<figure class="image is-128x128">
+										<img
+											class="media-object"
+											src="img/rn.png"
+											width="30%"
+											alt=""
+										/>
+									</figure>
+								</div>
+								<div class="media-content">
+									<strong>React Native</strong>
+									<br />
+									React Native enables you to build
+									world-class native application using
+									JavaScript and React
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="column">
+						<div
+							class="box card card-wrap"
+							style="margin: 3%; padding: 3%;"
+						>
+							<article class="media">
+								<div class="media-left">
+									<figure class="image is-128x128">
+										<img
+											class="media-object"
+											src="img/react.png"
+											width="30%"
+											alt=""
+										/>
+									</figure>
+								</div>
+								<div class="media-content">
+									<strong>React.js</strong>
+									<br />
+									A declarative, efficient & flexible
+									Javascript librar for building user
+									interfaces.
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section team">
+				<div class="us-title">Our Squad</div>
+				<div class="container squad-cont">
+					<div class="columns">
+						<div class="column">
+							<div class="card card-wrap team-cards">
+								<div class="card-content">
+									<div class="content">
+										<figure
+											class="image is-128x128 pic-cont"
+										>
+											<img
+												class="is-rounded"
+												src="img/tk.jpeg"
+											/>
+										</figure>
+										<div class="name">TK Vishal</div>
+										<div class="designation">
+											Web Developer and Designer
+										</div>
+										<div class="about">
+											I craft simple apps with natural
+											user interfaces. Jack of all trades,
+											master of some. I have my hands in
+											UI design, web development data
+											analysis and visualization. Love to
+											play games and participate in CTF's
+										</div>
+										<div class="socials">
+											<div class="columns has-test">
+												<div class="column social-icon">
+													<a
+														href="https://www.instagram.com/tk_vishal/"
+														target="_blank"
+														><i
+															class="fa fa-instagram"
+														></i
+													></a>
+												</div>
+												<div class="column social-icon">
+													<a
+														href="https://twitter.com/Iamteeekay"
+														target="_blank"
+														><i
+															class="fa fa-twitter"
+														></i
+													></a>
+												</div>
+												<div class="column social-icon">
+													<a
+														href="https://tkvishal.now.sh"
+														target="_blank"
+														><i
+															class="fa fa-heart"
+														></i
+													></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column">
+							<div class="card card-wrap">
+								<div class="card-content">
+									<div class="content">
+										<figure
+											class="image is-128x128 pic-cont"
+										>
+											<img
+												class="is-rounded"
+												src="img/maneesh.jpg"
+											/>
+										</figure>
+										<div class="name">Maneesh</div>
+										<div class="designation">
+											Web & Android Developer
+										</div>
+										<div class="about">
+											Im An Enthusiastic Web Developer,
+											who love to do stuffs with new
+											technologies and seeks for
+											perfection on every attempts. I can
+											able to do web apps & mobile apps
+											too using Web Stack!
+										</div>
+										<div class="socials">
+											<div class="columns has-test">
+												<div class="column social-icon">
+													<a
+														href="https://www.instagram.com/_manu_vk_/"
+														target="_blank"
+														><i
+															class="fa fa-instagram"
+														></i
+													></a>
+												</div>
+												<div class="column social-icon">
+													<a
+														href="https://twitter.com/Champ_Maneesh"
+														target="_blank"
+														><i
+															class="fa fa-twitter"
+														></i
+													></a>
+												</div>
+												<div class="column social-icon">
+													<a
+														href="https://maneeshk.now.sh/"
+														target="_blank"
+														><i
+															class="fa fa-heart"
+														></i
+													></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column">
+							<div class="card card-wrap">
+								<div class="card-content">
+									<div class="content">
+										<figure
+											class="image is-128x128 pic-cont"
+										>
+											<img
+												class="is-rounded"
+												src="img/kishore.jpg"
+											/>
+										</figure>
+										<div class="name">Venkat Kishore</div>
+										<div class="designation">
+											Android Developer
+										</div>
+										<div class="about">
+											Quest to work and learn in a real
+											professional and vying ambience that
+											enables me to cope with the emerging
+											as well as latest technology and
+											scope for widening the spectrum of
+											my knowledge.
+										</div>
+										<!-- <div class="socials">
                                             <div class="columns has-test">
                                                 <div class="column social-icon">
                                                     <a href=""><i class="fa fa-instagram"></i></a>
@@ -240,51 +418,72 @@
                                                 </div>
                                             </div>
                                         </div> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="card card-wrap">
-                                <div class="card-content">
-                                    <div class="content">
-                                        <figure class="image is-128x128 pic-cont">
-                                            <img class="is-rounded" src="img/ashok.jpg" />
-                                        </figure>
-                                        <div class="name">Ashok Kumar</div>
-                                        <div class="designation">Android Developer</div>
-                                        <div class="about">
-                                            A young developer who is keen in developing Android and Web Apps. I just
-                                            keep
-                                            things simple - "I learn, I code and I enjoy the result."
-                                        </div>
-                                        <div class="socials">
-                                            <div class="columns has-test">
-                                                <div class="column social-icon">
-                                                    <a href="https://www.instagram.com/iamashokjat/" target="_blank"><i
-                                                            class="fa fa-instagram"></i></a>
-                                                </div>
-                                                <div class="column social-icon">
-                                                    <a href="https://twitter.com/iamashokjat/" target="_blank"><i
-                                                            class="fa fa-twitter"></i></a>
-                                                </div>
-                                                <div class="column social-icon">
-                                                    <a href=""><i class="fa fa-heart"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <div class = "footer">
-                W3Devz © 2019
-            </div>
-        </main>
-        <script src="js/main.js"></script>
-    </body>
-
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column">
+							<div class="card card-wrap">
+								<div class="card-content">
+									<div class="content">
+										<figure
+											class="image is-128x128 pic-cont"
+										>
+											<img
+												class="is-rounded"
+												src="img/ashok.jpg"
+											/>
+										</figure>
+										<div class="name">Ashok Kumar</div>
+										<div class="designation">
+											Android Developer
+										</div>
+										<div class="about">
+											A young developer who is keen in
+											developing Android and Web Apps. I
+											just keep things simple - "I learn,
+											I code and I enjoy the result."
+										</div>
+										<div class="socials">
+											<div class="columns has-test">
+												<div class="column social-icon">
+													<a
+														href="https://www.instagram.com/iamashokjat/"
+														target="_blank"
+														><i
+															class="fa fa-instagram"
+														></i
+													></a>
+												</div>
+												<div class="column social-icon">
+													<a
+														href="https://twitter.com/iamashokjat/"
+														target="_blank"
+														><i
+															class="fa fa-twitter"
+														></i
+													></a>
+												</div>
+												<div class="column social-icon">
+													<a href=""
+														><i
+															class="fa fa-heart"
+														></i
+													></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="footer">
+				W3Devz © 2019
+			</div>
+		</main>
+		<script src="js/main.js"></script>
+	</body>
 </html>

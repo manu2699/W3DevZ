@@ -2,280 +2,279 @@
 @import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  font-family: "Karla";
+	font-family: "Karla";
 }
 
 .title {
-  font-family: "Abril Fatface";
-  font-size: 100px;
-  line-height: 95px;
-  letter-spacing: 3px;
-  position: relative;
-  top: 50px;
-  font-weight: 100;
-  color: #111111;
+	font-family: "Abril Fatface";
+	font-size: 100px;
+	line-height: 95px;
+	letter-spacing: 3px;
+	position: relative;
+	top: 50px;
+	font-weight: 100;
+	color: #111111;
 }
 
 .subtitle {
-  font-family: "Karla";
-  font-size: 24px;
-  font-style: oblique;
-  font-weight: bold;
-  position: relative;
-  top: 50px;
-  color: whitesmoke;
+	font-family: "Karla";
+	font-size: 24px;
+	font-style: oblique;
+	font-weight: bold;
+	position: relative;
+	top: 45px;
+	color: whitesmoke;
 }
 
 .scroll-down {
-  font-size: 40px;
-  cursor: pointer;
-  position: absolute;
-  left: calc(50% - 20px);
-  bottom: 60px;
+	font-size: 40px;
+	cursor: pointer;
+	position: absolute;
+	left: calc(50% - 20px);
+	bottom: 60px;
 }
 
 .slogan {
-  /* margin-left: auto; */
-  text-align: center;
-  font-family: "Karla";
-  font-size: 20px;
-  position: relative;
-  top: 50px;
-  color: black;
-  padding-top: 40px;
-  font-weight: bold;
+	/* margin-left: auto; */
+	text-align: center;
+	font-family: "Karla";
+	font-size: 20px;
+	position: relative;
+	top: 15px;
+	color: black;
+	padding-top: 150px;
+	font-weight: bold;
 }
 
 .location {
-  font-family: "Karla";
-  font-size: 20px;
-  position: relative;
-  bottom: 50px;
+	font-family: "Karla";
+	font-size: 20px;
+	position: relative;
+	bottom: 50px;
 }
 
 .hero {
-  height: 100vh;
-  padding: 0.5rem 1rem;
-  text-align: center;
+	height: 100vh;
+	padding: 0.5rem 1rem;
+	text-align: center;
 }
 
 .intro {
-  padding: 3rem 2.5rem;
-  text-align: left;
-  background: #111111;
-  padding-bottom: 12rem;
+	padding: 3rem 2.5rem;
+	text-align: left;
+	background: #111111;
+	padding-bottom: 12rem;
 }
 
 .team {
-  background: white;
-  padding: 3rem 2.5rem;
+	background: white;
+	padding: 3rem 2.5rem;
 }
 
 .us-title {
-  color: #111111;
+	color: #111111;
 }
 
 .logo {
-  margin-left: auto;
-  margin-right: auto;
-  width: 356px !important;
-  transform: rotate(-5);
+	margin-left: auto;
+	margin-right: auto;
+	width: 296px !important;
+	transform: rotate(-5);
 }
 
 .link {
-  background: linear-gradient(to bottom, tomato 0%, tomato 100%);
-  background-position: 0 100%;
-  background-repeat: repeat-x;
-  background-size: 6px 4px;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
+	background: linear-gradient(to bottom, tomato 0%, tomato 100%);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 6px 4px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
 }
 
 .link:hover {
-  background-size: 4px 60px;
+	background-size: 4px 60px;
 }
 
 .sub-intro {
-  font-size: 52px;
-  font-weight: lighter;
+	font-size: 52px;
+	font-weight: lighter;
 }
 
 .us-title {
-  font-family: "Abril Fatface";
-  font-size: 42px;
-  font-weight: lighter;
-  text-align: center;
+	font-family: "Abril Fatface";
+	font-size: 42px;
+	font-weight: lighter;
+	text-align: center;
 }
 
 .stuffs-title {
-  font-family: "Abril Fatface";
-  font-size: 42px;
-  font-weight: lighter;
-  text-align: center;
-  color: white !important;
+	font-family: "Abril Fatface";
+	font-size: 42px;
+	font-weight: lighter;
+	text-align: center;
+	color: white !important;
 }
 
 .left {
-  font-size: 72px;
-  /* color: #41404d */
-  color: white;
+	font-size: 72px;
+	/* color: #41404d */
+	color: white;
 }
 
 .stuffs {
-  background: #111111;
+	background: #111111;
 }
 
 .hero-body {
-  background: url("../img/bg.jpg");
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  padding-top: 30vh;
+	/* background: url("../img/bg.jpg"); */
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	padding-top: 30vh;
 }
 
 .squad-cont {
-  text-align: center;
-  padding-top: 50px;
+	text-align: center;
+	padding-top: 50px;
 }
 
 .projects-cont {
-  text-align: center;
-  padding-top: 50px;
+	text-align: center;
+	padding-top: 50px;
 }
 
 .pic-cont {
-  margin-left: auto !important;
-  margin-right: auto !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 .pic-cont > img {
-  box-shadow: 5px 5px 32px -12px rgba(0, 0, 0, 0.51);
+	box-shadow: 5px 5px 32px -12px rgba(0, 0, 0, 0.51);
 }
 
 .card-wrap {
-  border-radius: 10px;
-  transition: all 0.3s !important;
+	border-radius: 10px;
+	transition: all 0.3s !important;
 }
 
 .card-wrap:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0px 66px -42px rgba(0,0,0,0.75);
+	transform: scale(1.1);
+	box-shadow: 0px 0px 66px -42px rgba(0, 0, 0, 0.75);
 }
 
 .name {
-  font-weight: bolder;
-  font-size: 26px;
+	font-weight: bolder;
+	font-size: 26px;
 }
 
 .designation {
-  font-weight: bolder;
-  font-size: 16px;
-  color: #9f9f9f;
+	font-weight: bolder;
+	font-size: 16px;
+	color: #9f9f9f;
 }
 
 .about {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #9f9f9f;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #9f9f9f;
 }
 
 .socials {
-  text-align: center;
-  font-size: 20px;
+	text-align: center;
+	font-size: 20px;
 }
 
 .social-icon {
-  display: inline-block;
+	display: inline-block;
 }
 
 .social-icon > a {
-  color: #9f9f9f;
-  transition: all 0.1s ease-in-out;
+	color: #9f9f9f;
+	transition: all 0.1s ease-in-out;
 }
 
 .social-icon > a:hover {
-  color: tomato;
+	color: tomato;
 }
 
 @media only screen and (max-width: 600px) {
-  .title {
-    font-size: 64px;
-  }
+	.title {
+		font-size: 64px;
+	}
 
-  .left {
-    font-size: 35px;
-  }
+	.left {
+		font-size: 35px;
+	}
 
-  .intro {
-    padding: 1.5rem 1rem;
-    padding-bottom: 10rem;
-  }
+	.intro {
+		padding: 1.5rem 1rem;
+		padding-bottom: 10rem;
+	}
 
-  .team {
-    padding: 1.5rem 1rem;
-  }
+	.team {
+		padding: 1.5rem 1rem;
+	}
 
-  .logo {
-    width: 256px !important;
-    margin-left: auto;
-  margin-right: auto;
-  }
+	.logo {
+		width: 256px !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 .buttonblk {
-  background: white;
-  /* font-size: 0.75em; */
-  margin-left: 25%;
-  width: 45%;
-  padding: 2%;
-  color: black;
-  border: 1.5px solid black;
-  border-radius: 25px;
+	background: white;
+	/* font-size: 0.75em; */
+	margin-left: 25%;
+	width: 45%;
+	padding: 2%;
+	color: black;
+	border: 1.5px solid black;
+	border-radius: 25px;
 }
 .buttonwh {
-  background: white;
-  font-size: 1em;
-  width: 40%;
-  padding: 2%;
-  color: black;
-  border: 1.5px solid black;
-  border-radius: 25px;
+	background: white;
+	font-size: 1em;
+	width: 40%;
+	padding: 2%;
+	color: black;
+	border: 1.5px solid black;
+	border-radius: 25px;
 }
 
 bold {
-  font-weight: bold;
+	font-weight: bold;
 }
 button {
-  color: inherit;
-  font-size: 20px;
-  font-weight: bold;
-  background: inherit;
-  border: 0px solid white;
-  cursor: pointer;
+	color: inherit;
+	font-size: 20px;
+	font-weight: bold;
+	background: inherit;
+	border: 0px solid white;
+	cursor: pointer;
 }
 
-
 .play-cont {
-  margin-left:auto !important;
-  margin-right: auto !important;
-  margin-top: 0em !important;
-  height: 40px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	margin-top: 0em !important;
+	height: 40px !important;
 }
 
 .footer {
-  background: #111111;
-  text-align: center;
-  padding: 0.5rem 0 0.5rem;
-  color: white;
+	background: #111111;
+	text-align: center;
+	padding: 0.5rem 0 0.5rem;
+	color: white;
 }

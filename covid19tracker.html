@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163944598-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-163944598-1');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COVID-19 Tracker App</title>
+  <link rel="stylesheet" href="./covid19tracker/styles.css">
+  <link rel="icon" href="/img/Group 1.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/1210374a76.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body id="body">
+
+  <div class="header">
+
+    <div class="row" id="row">
+      <div class="col-lg-6">
+        <div class = "fadeInUp" style = "animation-delay: 0.1s;">
+          <img style="width:10%" src="covid19tracker/img/logo.png" alt="">
+          <h1 id="h1" style = "font-size: 20px;">&#x1F1EE;&#x1F1F3; COVID-19 Tracker</h1>
+        </div>
+
+      <h2 id="h2" class = "fadeInUp" style = "animation-delay: 0.2s;">Know about the deadly Coronavirus in India</h2>
+        <button type="button" class="btn btn-light btn-lg download-button fadeInUp" style = "animation-delay: 0.3s;">
+          <span class="fas fa-download"></span> 
+          <a href="/covid19tracker/COVID_19_TRACKER.apk" style="text-decoration: none; color: black;">Download</a>
+        </button>
+        <button type="button" class="btn btn-light btn-lg download-button fadeInUp" style = "animation-delay: 0.3s;">
+          <span class="fab fa-github-alt"></span> 
+          <a href="https://github.com/manu2699/Covid_19_Tracker" style="text-decoration: none; color: black">Star on Github</a>
+        </button>
+      </div>
+
+      <div class="col-lg-6 align fadeInUp" style = "animation-delay: 0.2s;">
+        <img class="header_images" id="home_screen" src="covid19tracker/img/home_screen.jpeg" alt="">
+        <img class="header_images" id="location_screen" src="covid19tracker/img/location_screen.jpeg" alt="">
+        <img class="header_images" id="map_screen" src="covid19tracker/img/map_screen.jpeg" alt="">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="features" style = "padding-bottom: 10px;">
+    <div class="row" id="row" style = "padding-bottom: 10px;">
+      <div class=" col-lg-4 feature-items fadeInUp" style = "animation-delay: 0.45s;">
+      <span class="fas fa-chart-line feature-icons"></span>
+      <h3 style="font-weight: 700;">India's run</h3>
+      <p>Provides statistics of covid-19 in each state in India.</p>
+    </div>
+    <div class="col-lg-4 feature-items fadeInUp" style = "animation-delay: 0.55s;">
+      
+      <span class="fas fa-globe-americas feature-icons"></span>
+      <h3 style="font-weight: 700;" s>Near you</h3>
+      <p>You can estimate the distance between you and a active case near you</p>
+    </div>
+
+    <div class="col-lg-4 feature-items fadeInUp" style = "animation-delay: 0.65s;">
+      <span class="far fa-edit feature-icons "></span>
+
+      <h3 style="font-weight: 700;">Quick Updates</h3>
+      <p>Updates from dedicated API's and trusted sources</p>
+    </div>
+    </div>
+
+    </div>
+    <hr>
+    <section id="cta" style = "padding: 10px;">
+
+            <h3 id="h3">Stay home. Stay safe. <br><br>
+              Made with <i class="fas fa-heart"></i> and <i class="fas fa-code"></i> by <br/><br/>
+              <a href="/index.html">
+              <img src="/img/anim.gif" width="120px">
+              </a>
+      </div>
+      <br/> <br>
+      <button type="button" class="btn btn-dark btn-lg download-button fadeInUp" style = "animation-delay: 0.3s;">
+          <span class="fas fa-download"></span> 
+          <a href="/covid19tracker/COVID_19_TRACKER.apk" style="text-decoration: none; color: white;">Download</a>
+      </button>
+      <button type="button" class="btn btn-dark btn-lg download-button fadeInUp" style = "animation-delay: 0.3s;">
+          <span class="fab fa-github-alt"></span> 
+          <a href="https://github.com/manu2699/Covid_19_Tracker" style="text-decoration: none; color: white;">Star on Github</a>
+      </button>
+    </section>
+
+    <img src="/covid19tracker/img/spreadscreen.jpeg" width="1%" style="display:none">
+    <img src="/covid19tracker/img/precauton_screen.jpeg" width="1%" style="display: none;"
+
+  </div>
+
+</body>
+
+</html>
